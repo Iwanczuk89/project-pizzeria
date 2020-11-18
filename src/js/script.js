@@ -110,8 +110,8 @@
         event.preventDefault();
 
         /* toggle active class on element of thisProduct */
-        thisProduct.element.classList.toggle(classNames.menuProduct.wrapperActive);
-        console.log('Element was clicked');
+        const addClassActive = thisProduct.element.classList.toggle(classNames.menuProduct.wrapperActive);
+        console.log(addClassActive);
 
         /* find all active products */
         const activeProducts = document.querySelectorAll(select.all.menuProductsActive);
@@ -213,12 +213,6 @@
       thisProduct.priceElem.innerHTML = price;
     }
   }
-
-
-  
-  
-  
-
   const app = {
     initMenu: function(){
       //const testProduct = new Product();
