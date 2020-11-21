@@ -65,7 +65,7 @@
       thisProduct.initOrderForm();
       thisProduct.initAmountWidget();
       thisProduct.processOrder();
-      thisProduct.initAmountWidget();
+      
 
       console.log('new Product:', thisProduct);
     }
